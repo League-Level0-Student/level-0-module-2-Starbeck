@@ -16,7 +16,7 @@ public class IntroToRandom {
 		//   Create an object of the Random class
 		//	 use .nextInt() to get a random number
 		
-
+		int h = r.nextInt(13);
 		//4. Limit the random number between 0 and 100
 int t = r.nextInt(101);
 		//5. Limit the random number between 25 and 75. Hint: ((highest value - lowest value)+1) + lowest value
@@ -27,6 +27,7 @@ int l = r.nextInt((310)+1)-222;
 		JOptionPane.showMessageDialog(null,n);
 		JOptionPane.showMessageDialog(null,t);
 		JOptionPane.showMessageDialog(null,l);
+		JOptionPane.showMessageDialog(null,h);
 		//2. Run the program.  What number appears in the console?
 		//   Run it again. Is the number the same?
 	}

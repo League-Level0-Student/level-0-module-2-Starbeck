@@ -18,16 +18,17 @@ public class Validation {
 
 		// 1. Use each value of randomNumber to give the user a random compliment.
 for(int i=0; i<=10; i++) {
+	randomNumber = randomMaker.nextInt(5);
 		if (randomNumber == 0) {
-			
+			JOptionPane.showMessageDialog(null, "0");
 		} else if (randomNumber == 1) {
-			
+			JOptionPane.showMessageDialog(null, "1");
 		} else if (randomNumber == 2) {
-			
+			JOptionPane.showMessageDialog(null, "2");
 		} else if (randomNumber == 3) {
-			
+			JOptionPane.showMessageDialog(null, "3");
 		} else {
-			
+			JOptionPane.showMessageDialog(null, "4");
 		}
 	};
 		// 2. Repeat all the code above 10 times

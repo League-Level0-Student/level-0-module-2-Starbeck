@@ -16,8 +16,14 @@ public class AnimalFarm {
 		/*
 		 * 1. Ask the user which animal they want, then play the sound of that animal.
 		 */
-		
+		//String close = JOptionPane.showInputDialog(null, "Do ");
+		//String h = JOptionPane.showInputDialog(null, "Which animal do you want?");
 		/* 2. Make it so that the user can keep entering new animals. */
+		//if(h == "close") {
+		//	System.exit(0);
+		//}else {
+			
+		//}
 	}
 
 	void playMoo() {
